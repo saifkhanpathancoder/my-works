@@ -1,0 +1,705 @@
+.choice {
+  width: 100%;
+  margin-bottom: 5rem;
+  background-color: #fff;
+  padding: 10rem;
+  margin-top: -15rem;
+  &__innercontainer {
+    max-width: 144rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12rem;
+    @media only screen and (max-width: 1100px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      // justify-content: center;
+    }
+    @media only screen and (max-width: 900px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      // justify-content: center;
+    }
+
+    // height: 5rem;
+    // background-color: aqua;
+  }
+  &__text {
+    position: relative;
+  }
+
+  &__heading-primary {
+    // width: max-content;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    font-family: poppins;
+    font-size: 4rem;
+    line-height: 5rem;
+    // text-align: center;
+    font-family: poppins;
+    font-weight: 600;
+    @media only screen and (max-width: 1303px) {
+      font-size: 3.5rem;
+    }
+    @media only screen and (max-width: 1200px) {
+      font-size: 3rem;
+    }
+    @media only screen and (max-width: 1100px) {
+      font-size: 4rem;
+      position: 0;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 3rem;
+      position: 0;
+    }
+  }
+
+  &__heading-secondary {
+    font-family: poppins;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 2rem;
+  }
+
+  &__paragraph {
+    font-family: poppins;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-family: poppins;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 1.5rem;
+  }
+
+  &__head {
+    font-family: poppins;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-family: poppins;
+    color: rgba(229, 132, 17, 1);
+    font-weight: 600;
+    margin-right: 3rem;
+    cursor: pointer;
+  }
+}
+.product {
+  width: 100%;
+  margin-bottom: 20rem;
+  position: relative;
+  background-color: rgba(247, 247, 247, 1);
+  padding: 5rem 0 20rem 0;
+
+  &__innercontainer {
+    max-width: 144rem;
+    margin: auto;
+  }
+
+  &__sell-content {
+    text-align: center;
+  }
+
+  &__heading-primary {
+    font-family: poppins;
+    font-size: 4.2rem;
+    line-height: 5rem;
+    margin-bottom: 3rem;
+    @media only screen and (max-width: 600px) {
+      font-size: 3.5rem;
+    }
+  }
+
+  &__button {
+    background-color: rgba(238, 238, 238, 1);
+    border-radius: 5rem;
+    padding: 0 5rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin: auto;
+    margin-bottom: 8rem;
+    // height: 4rem;
+    // display: inline-block;
+  }
+
+  &__btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &__btn-1 {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 1.2rem 1rem;
+    border-radius: 3rem;
+    cursor: pointer;
+  }
+
+  &__chairs {
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    grid-gap: 5rem;
+    justify-items: center;
+    @media only screen and (max-width: 1100px) {
+      max-width: 70rem;
+      display: grid;
+      grid-template-columns: repeat(2, 250px);
+      grid-template-rows: repeat(2, 1fr);
+      justify-items: center;
+      column-gap: 15rem;
+      row-gap: 6rem;
+    }
+    @media only screen and (max-width: 600px) {
+      max-width: 30rem;
+      display: grid;
+      grid-template-columns: repeat(1, 250px);
+      grid-template-rows: repeat(1, 1fr);
+      justify-items: center;
+      // column-gap:5rem;
+      row-gap: 5rem;
+    }
+    // gap: 3rem;
+
+    // margin-bottom: 27rem;
+  }
+
+  &__card {
+    background-color: rgba(#fff, 0.5);
+    border-radius: 1rem;
+    padding: 4rem;
+    @media only screen and (max-width: 1100px) {
+      // padding: 5rem;
+    }
+  }
+
+  &__char {
+    width: 21rem;
+    height: 25rem;
+    margin-bottom: 4.7rem;
+    // box-shadow: 0 3rem 10rem rgba(0, 0, 0, 0.4);
+  }
+
+  &__image-1 {
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+  }
+
+  &__h1 {
+    color: rgba(141, 141, 141, 1);
+    margin-bottom: 0.6rem;
+    font-family: poppins;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+
+  &__h2 {
+    margin-bottom: 0.6rem;
+    font-family: poppins;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+  }
+  &__icon {
+    color: rgba(246, 183, 111, 1);
+    margin-bottom: 5rem;
+  }
+
+  &__h3 {
+    font-family: poppins;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+  }
+
+  &__view {
+    position: absolute;
+    font-family: poppins;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    color: rgba(229, 132, 17, 1);
+    cursor: pointer;
+    top: 90%;
+    left: 45%;
+
+    @media only screen and (max-width: 600px) {
+      top: 95%;
+      left: 45%;
+    }
+  }
+}
+
+.provide {
+  width: 100%;
+  margin-bottom: 27rem;
+  @media only screen and (max-width: 1100px) {
+    margin-bottom: 20rem;
+  }
+  &__innercontainer {
+    max-width: 120rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    @media only screen and (max-width: 1100px) {
+      max-width: 80rem;
+    }
+    @media only screen and (max-width: 1100px) {
+      max-width: 70rem;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    @media only screen and (max-width: 700px) {
+      max-width: 55rem;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    @media only screen and (max-width: 550px) {
+      max-width: 50rem;
+    }
+    @media only screen and (max-width: 440px) {
+      max-width: 40rem;
+    }
+  }
+
+  &__figure {
+  }
+
+  &__image-wrap {
+    width: 63rem;
+    height: 44rem;
+    @media only screen and (max-width: 700px) {
+      width: 60rem;
+      height: 40rem;
+    }
+    @media only screen and (max-width: 550px) {
+      width: 50rem;
+      height: 30rem;
+    }
+    @media only screen and (max-width: 440px) {
+      width: 40rem;
+      height: 20rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  &__text {
+  }
+
+  &__heading-primary {
+    font-family: poppins;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.175em;
+    color: rgba(229, 132, 17, 1);
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 700px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__heading-secondary {
+    font-family: poppins;
+    font-size: 4.2rem;
+    line-height: 4.9rem;
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 700px) {
+      font-size: 3.5rem;
+    }
+    @media only screen and (max-width: 440px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__para {
+    font-family: poppins;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 2.4rem;
+    @media only screen and (max-width: 440px) {
+      font-size: 1.5rem;
+    }
+  }
+  &__head {
+    font-family: poppins;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: rgba(229, 132, 17, 1);
+    cursor: pointer;
+  }
+}
+.furniture {
+  width: 100%;
+  margin-bottom: 26rem;
+
+  @media only screen and (max-width: 550px) {
+    margin-bottom: 56rem;
+  }
+  &__innercontainer {
+    max-width: 120rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    position: relative;
+    @media only screen and (max-width: 1100px) {
+      max-width: 60rem;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    @media only screen and (max-width: 700px) {
+      max-width: 55rem;
+    }
+    @media only screen and (max-width: 550px) {
+      max-width: 50rem;
+    }
+    @media only screen and (max-width: 440px) {
+      max-width: 40rem;
+    }
+  }
+  &__text {
+    margin-top: 10rem;
+  }
+
+  &__heading-primary {
+    font-family: poppins;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: rgba(229, 132, 17, 1);
+    letter-spacing: 0.175em;
+    margin-bottom: 2rem;
+  }
+
+  &__heading-secondary {
+    font-family: poppins;
+    font-size: 4.2rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 700px) {
+      font-size: 3.5rem;
+    }
+    @media only screen and (max-width: 550px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__para {
+    font-family: poppins;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__head {
+    font-family: poppins;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: rgba(229, 132, 17, 1);
+  }
+
+  &__figure {
+    @media only screen and (max-width: 550px) {
+      max-width: 40rem;
+      margin: auto;
+    }
+  }
+
+  &__image-wrap {
+    width: 22rem;
+    height: 22rem;
+    @media only screen and (max-width: 550px) {
+      width: 25rem;
+      height: 25rem;
+    }
+    @media only screen and (max-width: 550px) {
+      // width: 15rem;
+      // height: 25rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  &__image-wrapper {
+    width: 22rem;
+    height: 31rem;
+    display: flex;
+    gap: 3rem;
+    @media only screen and (max-width: 550px) {
+      width: 25rem;
+      height: 25rem;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__img-1 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    gap: 5rem;
+    margin-bottom: 10rem;
+  }
+  &__img-2 {
+    margin-top: -6rem;
+    width: 33rem;
+    height: 38rem;
+    cursor: pointer;
+    @media only screen and (max-width: 550px) {
+      width: 25rem;
+      height: 25rem;
+      margin-bottom: 8rem;
+    }
+  }
+}
+.review {
+  width: 100%;
+  margin-bottom: 18rem;
+  &__innercontainer {
+    max-width: 120rem;
+
+    margin: auto;
+    // @media only screen and (max-width: 1100px) {
+    //   max-width: 30rem;
+    // }
+    // @media only screen and (max-width: 900px) {
+    //   max-width: 30rem;
+    // }
+  }
+
+  &__text-content {
+    text-align: center;
+  }
+
+  &__heading-primary {
+    font-family: poppins;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    letter-spacing: 0.175em;
+    color: rgba(229, 132, 17, 1);
+    margin-bottom: 2rem;
+  }
+
+  &__heading-secondary {
+    font-family: poppins;
+    font-size: 4.2rem;
+    line-height: 5rem;
+    margin-bottom: 6rem;
+    @media only screen and (max-width: 700px) {
+      font-size: 3.5rem;
+    }
+    @media only screen and (max-width: 550px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    cursor: pointer;
+    @media only screen and (max-width: 1100px) {
+      grid-template-columns: repeat(1, 1fr);
+      max-width: 35rem;
+      margin: auto;
+    }
+    @media only screen and (max-width: 900px) {
+      grid-template-columns: repeat(1, 1fr);
+      max-width: 30rem;
+      margin: auto;
+    }
+  }
+
+  &__card-1 {
+    width: 37rem;
+    height: 47rem;
+    @media only screen and (max-width: 900px) {
+      width: 30rem;
+      height: 40rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.footer {
+  width: 100%;
+  // margin-bottom: 20rem;
+  background-color: rgba(247, 247, 247, 1);
+  padding: 8rem 0 5rem 0;
+
+  &__innercontainer {
+    max-width: 110rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12rem;
+    @media only screen and (max-width: 900px) {
+      max-width: 65rem;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25rem;
+      row-gap: 6rem;
+    }
+    @media only screen and (max-width: 600px) {
+      max-width: 30rem;
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 10rem;
+      row-gap: 6rem;
+    }
+  }
+
+  &__panto {
+  }
+
+  &__heading-primary {
+    width: 29rem;
+    font-family: poppins;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.01em;
+    margin-bottom: 3rem;
+  }
+
+  &__paragraph {
+    font-family: poppins;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: rgba(30, 30, 30, 1);
+  }
+
+  &__head {
+    margin-bottom: 2rem;
+    color: rgba(246, 151, 63, 1);
+    font-family: poppins;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  &__para {
+    padding: 1.5rem 0;
+    font-family: poppins;
+    // display: inline-block;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: rgba(30, 30, 30, 1);
+    cursor: pointer;
+    transition: all 0.3s;
+    @media only screen and (max-width: 900px) {
+      width: max-content;
+    }
+    @media only screen and (max-width: 550px) {
+      width: max-content;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__service {
+  }
+
+  &__furniture {
+  }
+
+  &__follow {
+  }
+
+  &__facebook {
+    width: 1rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    // margin-bottom: 12rem;
+  }
+}
+
+.copyright {
+  width: 100%;
+  padding: 2rem 0 5rem 0;
+  background-color: rgba(247, 247, 247, 1);
+  &__innercontainer {
+    max-width: 120rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width: 1000px) {
+      max-width: 100rem;
+    }
+    @media only screen and (max-width: 900px) {
+      max-width: 80rem;
+    }
+    @media only screen and (max-width: 700px) {
+      max-width: 70rem;
+    }
+    @media only screen and (max-width: 600px) {
+      max-width: 50rem;
+    }
+    @media only screen and (max-width: 450px) {
+      max-width: 40rem;
+    }
+  }
+
+  &__copy {
+  }
+
+  &__text-hold {
+    display: flex;
+    gap: 5rem;
+  }
+
+  &__heading-term {
+    font-family: poppins;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: rgba(30, 30, 30, 0.6);
+    cursor: pointer;
+    width: max-content;
+    @media only screen and (max-width: 450px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__heading-privacy {
+    font-family: poppins;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: rgba(30, 30, 30, 0.6);
+    cursor: pointer;
+    width: max-content;
+    @media only screen and (max-width: 450px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__heading-tertiary {
+    font-family: poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: rgba(30, 40, 51, 1);
+    @media only screen and (max-width: 450px) {
+      font-size: 1.3rem;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  @media only screen and (max-width: 1570px) {
+    font-size: 50%;
+  }
+  // @media only screen and (max-width: 1260px) {
+  //   font-size: 45%;
+  // }
+  // @media only screen and (max-width: 730px) {
+  //   font-size: 40%;
+  // }
+  // @media only screen and (max-width: 550px) {
+  //   font-size: 35%;
+  // }
+  // @media only screen and (max-width: 820px) {
+  //   font-size: 30%;
+  // }
+  // @media only screen and (max-width: 710px) {
+  //   font-size: 25%;
+  // }
+  // @media only screen and (max-width: 595px) {
+  //   font-size: 13%;
+  // }
+}
+
+body {
+  font-family: IBM Plex Sans "Times New Roman", Times, serif;
+  font-weight: 400;
+}

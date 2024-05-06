@@ -1,0 +1,110 @@
+.navigation {
+  width: 100%;
+  position: absolute;
+
+  &__innercontainer {
+    max-width: 120rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    padding: 3rem 1rem;
+    justify-content: space-around;
+    @media only screen and (max-width: 800px) {
+      max-width: 100rem;
+    }
+    @media only screen and (max-width: 600px) {
+      max-width: 80rem;
+    }
+    @media only screen and (max-width: 500px) {
+      max-width: 70rem;
+    }
+  }
+
+  &__heading-primary {
+    font-family: poppins;
+    color: #fff;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    cursor: pointer;
+    @media only screen and (max-width: 750px) {
+      font-size: 2.3rem;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 2rem;
+    }
+    @media only screen and (max-width: 430px) {
+      font-size: 1.5rem;
+    }
+  }
+  &__nav {
+  }
+  &__item {
+    display: flex;
+    gap: 10rem;
+    @media only screen and (max-width: 750px) {
+      gap: 6rem;
+    }
+    @media only screen and (max-width: 600px) {
+      gap: 4rem;
+    }
+    @media only screen and (max-width: 430px) {
+      gap: 3rem;
+    }
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__link {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 2rem;
+    line-height: 2rem;
+    @media only screen and (max-width: 750px) {
+      gap: 6rem;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 430px) {
+      font-size: 1.3rem;
+    }
+  }
+  &__icon-box {
+    position: relative;
+  }
+
+  &__icon {
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    @media only screen and (max-width: 750px) {
+      font-size: 2rem;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 500px) {
+    }
+  }
+
+  &__down {
+    margin-left: 1rem;
+  }
+
+  &__image {
+    position: absolute;
+    width: 2rem;
+    height: 2.5rem;
+    left: 50%;
+    cursor: pointer;
+    @media only screen and (max-width: 750px) {
+      width: 1.5rem;
+      height: 2rem;
+    }
+  }
+}
